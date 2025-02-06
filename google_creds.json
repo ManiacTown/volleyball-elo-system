@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "volleyball-elo-system",
+  "private_key_id": "bb855b79801d06ca59dfe3ea48766dce21e8894d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCziSDJKc/lzljs\nVl/Db1egBx3p+fqinGlGOPRgJrJbejAC3al6PW3w5FD00gebAQz1ScTe7zH5ikWH\n16PP5GALzWwy5VNB3uwUFjKNJ6EVlPx5eh2lH/uMdr3Bjdq1AjkGW5zWIXTZPU50\nceoejyVQwdlrOCRRvlGcmUDImOJZzJK+Kb9QPNfVGiZBBE2xfHLGJ4ED2qDcHtfF\nh2//7URXnLq+eQpH0lDUGP6Raz0XWqx9DG4UxdvmnQsk7kOqyQxVl51opLHl8Ua4\nJUVvH5HmX1JJVGbxHCwMpGoJS3Du3LSL/dNqrChMc0dRoH3cYdVNl3g9/9sxNT1D\nuDDkjEmFAgMBAAECggEAJIP8BJ45+CongO4ybQwM3PIFngyncwJwEQXNgm7scNmh\nwTt3WHL9FPVDGABN5rNogM0/uv4YgoIikTYFTefLtyrRWmq1K90c1BsNrhME2uBi\nF40EUYz3O0L9ZkwlUxKAKbBhblYAr5yeA+YVcaC4vLuornuNO4kDjV/IQuSBiTTP\n8tvLk3ms884y0qzVot8NTg1EUo0wDJCpliUgbpmJ0fKVNrn4Fh3TfMc41aQ0p7Xp\nffL7cuIfriovPyp7jAubwzZIc2G/Z+yNRQCCJ9mj+0hxyrZZREUPoxguS391jRD0\nXy4tp541e1/g3uNup9KfSgYSBuz/hBoorUb4+XAgQQKBgQD4BuVM0z8W5jFkDFPJ\nk/dcIP5tIBveOR3mRq3nTYgQ/z2SSWwymN/US94dQCV6eWFHU591/HsSDKjMxGL6\nH7IdTnk0Dd7qLImguLUt4Ly5EFycaKy8e3Wgyq1hcOR0a9ZGrEvjRms1Vic4cZx7\n6Ge2x1VfjNZ9NOwSnRm8aFuqYQKBgQC5Tpe0VEVLrJ5TPR4inVHElms5Ux4m9iZh\nsDG5aEWtHjqWboRLez9kmZ3YEpgxuP69cVJwS5Q/ldWuBY2z/Uhaaz7zwYmajyTZ\nEHLYUKxPtcQUbtSqMDxKjSEYhdq/KMc8D8tZocE6/aVZdtSvM35z5liatqdlFvCQ\n8NEOhlQZpQKBgHVihhmDDSPgVFXeg7Uug26l6uRowue8roryvpFvH0u0EUbv2vZj\nZePK+FdtqY86bTDdweWMVg7n0OgAtjtczuaR4kkhm3PHGmfno1AQQiFwPfSEkeQu\npjAwXDh2vpjfBK20E8J/7HN0z+El3ALErnlSA/TR6h2d83Cny6tg1KlhAoGBAJtI\nFqwQKfld71aFUqli91ArVDK3Sf8QKd2WjjR2Al0thZ7lgYrW/qpIaBLWkh6ojR8m\nxRRA4TvfTS4EjVgUmPrb/+a3eZ3A8fnLZNGL2Lj68hLFRQRQY1V9qgworsOdYkcc\nXSUA/TF3t4WepF8kYYSxs/IBuYhmjrSGeEkZm4PZAoGAdS0Hm7PaC8hodF7thjph\nSC2+02Kp9qcnWHt+lu/f6W42pXLd/2ruG1CRVAqnhgOGuHUcXIC4UszWHb2Slqa3\nQobtWR3ciGkCK+zC9mOo9QiYBuOkT6kOlmdPsSSnK6GsbY4lgi6EqTqri2+Lnwra\no9hXq6K6p6udZOOl8D/4m8g=\n-----END PRIVATE KEY-----\n",
+  "client_email": "service-account@volleyball-elo-system.iam.gserviceaccount.com",
+  "client_id": "101075178669286019246",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service-account%40volleyball-elo-system.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
