@@ -9,13 +9,24 @@ from google.oauth2.service_account import Credentials
 from math import pow
 from datetime import datetime
 from itertools import combinations
+import streamlit as st
+import json
+
+
+# Load credentials from Streamlit secrets
+creds_json = st.secrets["GOOGLE_CREDS"]
+creds_dict = json.loads(creds_json)
+
+# Authenticate with Google Sheets
+credentials = Credentials.from_service_account_info(creds_dict, scopes=["https://www.googleapis.com/auth/spreadsheets"])
+client = gspread.authorize(credentials)
 
 # Google Sheets authentication
-SCOPES = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
-CREDS_FILE = 'google_creds.json'  # credentials file path
+#SCOPES = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
+#CREDS_FILE = 'google_creds.json'  # credentials file path
 
-credentials = Credentials.from_service_account_file(CREDS_FILE, scopes=SCOPES)
-client = gspread.authorize(credentials)
+#credentials = Credentials.from_service_account_file(CREDS_FILE, scopes=SCOPES)
+#client = gspread.authorize(credentials)
 
 # Open the spreadsheet and worksheet
 SPREADSHEET_NAME = "Volleyball ELO Tracker"
