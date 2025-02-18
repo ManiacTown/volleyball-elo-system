@@ -12,13 +12,13 @@ from itertools import combinations
 import streamlit as st
 import json
 
+st.write(st.secrets["GOOGLE_CREDS"])
 
 # Load credentials from Streamlit secrets
-creds_json = st.secrets["GOOGLE_CREDS"]
-creds_dict = json.loads(creds_json)
+creds_dict = dict(st.secrets["GOOGLE_CREDS"])
 
 # Authenticate with Google Sheets
-credentials = Credentials.from_service_account_info(creds_dict, scopes=["https://www.googleapis.com/auth/spreadsheets"])
+credentials = Credentials.from_service_account_info(creds_dict)# scopes=["https://www.googleapis.com/auth/spreadsheets"])
 client = gspread.authorize(credentials)
 
 # Google Sheets authentication
