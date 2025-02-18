@@ -15,8 +15,13 @@ import json
 st.write(st.secrets["GOOGLE_CREDS"])
 
 # Load Google Credentials from Streamlit secrets
-creds_json = st.secrets["GOOGLE_CREDS"]  # This is a JSON string
-creds_dict = json.loads(creds_json)  # Parse it into a dictionary
+creds_data = st.secrets["GOOGLE_CREDS"]
+
+# If it's a string, parse it; otherwise, use it as is
+if isinstance(creds_data, str):
+    creds_dict = json.loads(creds_data)  # Convert JSON string to dict
+else:
+    creds_dict = creds_data  # It's already a dictionary
 
 # Authenticate with Google Sheets
 credentials = Credentials.from_service_account_info(creds_dict)# scopes=["https://www.googleapis.com/auth/spreadsheets"])
